@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+.side-bar {
+    background-color: #3b82f6;
+    height: 100vh;
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+} 
+.side-bar > *{
+    margin-bottom: 2rem;
+}
+.logo, .logo-icon {
+    height: 2.5rem;
+    font-size: larger;
+    padding: 0;
+}
+
+
+.options {
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+}
+.option, .logo{
+    color: white;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    padding: 0.5rem;
+}
+.sidebar-icon {
+    width: 1.4rem;
+    height: 1.5rem;
+}
+
+.main {
+    background-color: rgb(53, 41, 41);
+}
+
