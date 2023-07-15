@@ -4,7 +4,7 @@ This is an admin dashboard project created as part of TheOdinProject course. The
 
 ## Live Demo
 
-You can access the live demo of the Admin Dashboard [here](https://nduvhoedward.github.io/Admin_Dashboard/).
+You can access the live demo of the Admin Dashboard [here](https://nduvhoedward-odinprojects.github.io/Admin_Dashboard/).
 
 
 ## Skills Demonstrated
