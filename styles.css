@@ -80,7 +80,7 @@ img {
     background-color: var(--container-color);
     width: 80%;
     border-radius: 0.8rem;
-    padding: 0.5rem;
+    padding: 0.5rem 1rem;
 }
 
 .header .user,
