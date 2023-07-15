@@ -2,68 +2,242 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Dashboard</title>
-    <link rel="stylesheet" href="./styles.css">
-    <script src="./script.js" defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./script.js" defer></script>
 </head>
 
 <body>
-    <div class="grid-container">
-        <div class="side-bar">
+  <div class="grid-container">
 
-            <div class="logo">
-                <img class="logo-icon" class="sidebar-icon" src="./assets/account-arrow-down-outline.svg" alt="icon">
-                <div class="basic">Dashboard</div>
-            </div>
-            <div class="options options-1">
-                <div class="option">
-                    <img class="sidebar-icon" src="./assets/account-arrow-down-outline.svg" alt="icon">
-                    <div class="basic">Home</div>
-                </div>
-                <div class="option">
-                    <img class="sidebar-icon" src="./assets/account-arrow-down-outline.svg" alt="icon">
-                    <div class="basic">Profile</div>
-                </div>
-                <div class="option">
-                    <img class="sidebar-icon" src="./assets/account-arrow-down-outline.svg" alt="icon">
-                    <div class="basic">Messages</div>
-                </div>
-                <div class="option">
-                    <img class="sidebar-icon" src="./assets/account-arrow-down-outline.svg" alt="icon">
-                    <div class="basic">History</div>
-                </div>
-                <div class="option">
-                    <img class="sidebar-icon" src="./assets/account-arrow-down-outline.svg" alt="icon">
-                    <div class="basic">Tasks</div>
-                </div>
-                <div class="option">
-                    <img class="sidebar-icon" src="./assets/account-arrow-down-outline.svg" alt="icon">
-                    <div class="basic">Communities</div>
-                </div>
-            </div>
-            <div class="options options-2">
+    <div class="side-bar"> 
 
-                <div class="option">
-                    <img class="sidebar-icon" src="./assets/account-arrow-down-outline.svg" alt="icon">
-                    <div class="basic">Settings</div>
-                </div>
-                <div class="option">
-                    <img class="sidebar-icon" src="./assets/account-arrow-down-outline.svg" alt="icon">
-                    <div class="basic">Support</div>
-                </div>
-                <div class="option">
-                    <img class="sidebar-icon" src="./assets/account-arrow-down-outline.svg" alt="icon">
-                    <div class="basic">Privacy</div>
-                </div>
-            </div>
-
+      <div class="logo">
+        <img class="logo-icon" class="sidebar-icon" src="./assets/icon.png" alt="icon">
+        <h3>Dashboard</h3>
+      </div>
+      <div class="options options-1">
+        <div class="option">
+          <img class="sidebar-icon" src="./assets/icon.png" alt="icon">
+          <h4>Home</h4>
         </div>
-        <div class="main">
-
+        <div class="option">
+          <img class="sidebar-icon" src="./assets/icon.png" alt="icon">
+          <h4>Profile</h4>
         </div>
+        <div class="option">
+          <img class="sidebar-icon" src="./assets/icon.png" alt="icon">
+          <h4>Messages</h4>
+        </div>
+        <div class="option">
+          <img class="sidebar-icon" src="./assets/icon.png" alt="icon">
+          <h4>History</h4>
+        </div>
+        <div class="option">
+          <img class="sidebar-icon" src="./assets/icon.png" alt="icon">
+          <h4>Tasks</h4>
+        </div>
+        <div class="option">
+          <img class="sidebar-icon" src="./assets/icon.png" alt="icon">
+          <h4>Communities</h4>
+        </div>
+      </div>
+      <div class="options options-2">
+
+        <div class="option">
+          <img class="sidebar-icon" src="./assets/icon.png" alt="icon">
+          <h4>Settings</h4>
+        </div>
+        <div class="option">
+          <img class="sidebar-icon" src="./assets/icon.png" alt="icon">
+          <h4>Support</h4>
+        </div>
+        <div class="option">
+          <img class="sidebar-icon" src="./assets/icon.png" alt="icon">
+          <h4>Privacy</h4>
+        </div>
+      </div>
+
     </div>
+
+    <div class="header">
+
+      <div class="search">
+        <img src="./assets/header-icon.png" alt="search">
+        <div class="search-field">
+          <input type="text" name="searchQuery" id="searchQuery">
+        </div>
+      </div>
+
+      <div class="user">
+        <img src="./assets/header-icon.png" alt="notifications">
+        <img src="./assets/header-icon.png" alt="profile-pic">
+        <div class="names">
+          <p>Jane Doe</p>
+        </div>
+      </div>
+
+      <div class="greeting">
+        <img class="profile-pic" src="./assets/header-icon.png" alt="profile-pic">
+        <p class="hello">Hi There</p>
+        <p class="names">Jane Doe (@Jane)</p>
+      </div>
+
+      <div class="actions">
+        <button type="button">New</button>
+        <button type="button">Upload</button>
+        <button type="button">Share</button>
+      </div>
+
+    </div>
+
+    <div class="main">
+      <div class="projects">
+        <h3>Your Projects</h3>
+
+        <div class="project">
+          <div class="details">
+            <h4 class="title">Cool Project 1</h4>
+            <p class="brief">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus facere accusantium
+              molestiae
+              rem repellat?</p>
+          </div>
+          <div class="actions">
+            <img src="./assets/action-icon.png" alt="favourate">
+            <img src="./assets/action-icon.png" alt="seen">
+            <img src="./assets/action-icon.png" alt="share">
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="details">
+            <h4 class="title">Cool Project 2</h4>
+            <p class="brief">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus facere accusantium
+              molestiae
+              rem repellat?</p>
+          </div>
+          <div class="actions">
+            <img src="./assets/action-icon.png" alt="favourate">
+            <img src="./assets/action-icon.png" alt="seen">
+            <img src="./assets/action-icon.png" alt="share">
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="details">
+            <h4 class="title">Cool Project 3</h4>
+            <p class="brief">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus facere accusantium
+              molestiae
+              rem repellat?</p>
+          </div>
+          <div class="actions">
+            <img src="./assets/action-icon.png" alt="favourate">
+            <img src="./assets/action-icon.png" alt="seen">
+            <img src="./assets/action-icon.png" alt="share">
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="details">
+            <h4 class="title">Cool Project 4</h4>
+            <p class="brief">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus facere accusantium
+              molestiae
+              rem repellat?</p>
+          </div>
+          <div class="actions">
+            <img src="./assets/action-icon.png" alt="favourate">
+            <img src="./assets/action-icon.png" alt="seen">
+            <img src="./assets/action-icon.png" alt="share">
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="details">
+            <h4 class="title">Cool Project 5</h4>
+            <p class="brief">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus facere accusantium
+              molestiae
+              rem repellat?</p>
+          </div>
+          <div class="actions">
+            <img src="./assets/action-icon.png" alt="favourate">
+            <img src="./assets/action-icon.png" alt="seen">
+            <img src="./assets/action-icon.png" alt="share">
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="details">
+            <h4 class="title">Cool Project 6</h4>
+            <p class="brief">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus facere accusantium
+              molestiae
+              rem repellat?</p>
+          </div>
+          <div class="actions">
+            <img src="./assets/action-icon.png" alt="favourate">
+            <img src="./assets/action-icon.png" alt="seen">
+            <img src="./assets/action-icon.png" alt="share">
+          </div>
+        </div>
+
+      </div>
+
+      <div class="announcements">
+        <h3>Announcments</h3>
+        <div class="list">
+          <div class="announcement">
+            <h4>Site Maintanance</h4>
+            <p class="details">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+
+          <div class="announcement">
+            <h4>Site Maintanance</h4>
+            <p class="details">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+
+          <div class="announcement">
+            <h4>Site Maintanance</h4>
+            <p class="details">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="trending">
+        <h3>Trending</h3>
+        <div class="list">
+          <div class="trend">
+            <img src="./assets/trend.png" alt="trendie">
+            <div>@username</div>
+            <div>World Peace Builder</div>
+          </div>
+          <div class="trend">
+            <img src="./assets/trend.png" alt="trendie">
+            <div>@username</div>
+            <div>World Peace Builder</div>
+          </div>
+          <div class="trend">
+            <img src="./assets/trend.png" alt="trendie">
+            <div>@username</div>
+            <div>World Peace Builder</div>
+          </div>
+          <div class="trend">
+            <img src="./assets/trend.png" alt="trendie">
+            <div class="username">@username</div>
+            <div class="details">World Peace Builder</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
 </body>
 
 </html>
