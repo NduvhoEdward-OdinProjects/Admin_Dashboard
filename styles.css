@@ -142,14 +142,22 @@ img {
     height: 200px;
     border-radius: 1rem;
     padding: 1rem;
+    transition: all 0.3s ease-out;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 8px 2px;
+
 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 
     border-left-color: var(--secondary-blue);
-    border-left-width: 10px;
-    border-left-style: ridge;
+    border-left-width: 0.5rem;
+    border-left-style: ridge; 
+}
+.project:hover{
+    border-width: 0.125rem;
+    border-color: var(--primary-blue);
+    border-style: ridge;
 }
 
 .project .actions {
